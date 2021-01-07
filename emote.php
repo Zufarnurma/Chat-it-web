@@ -1,0 +1,47 @@
+<div id="emotes">
+    <img src="emote/smile5.png" height=40px width=40px onclick="emot('smile5.png');">
+    <img src="emote/smile4.png" height=40px width=40px onclick="emot('smile4.png');">
+    <img src="emote/smile3.png" height=40px width=40px onclick="emot('smile3.png');">
+    <img src="emote/smile2.png" height=40px width=40px onclick="emot('smile2.png');">
+    <img src="emote/smile6.png" height=40px width=40px onclick="emot('smile6.png');">
+    <img src="emote/smile7.png" height=40px width=40px onclick="emot('smile7.png');">
+    <img src="emote/smile8.png" height=40px width=40px onclick="emot('smile8.png');">
+    <img src="emote/winky.png" height=40px width=40px onclick="emot('winky.png');">
+    <img src="emote/tongueout.png" height=40px width=40px onclick="emot('tongueout.png');">
+    <img src="emote/tongueout2.png" height=40px width=40px onclick="emot('tongueout2.png');">
+    <img src="emote/tongueout3.png" height=40px width=40px onclick="emot('tongueout3.png');">
+    <img src="emote/sneezing.png" height=40px width=40px onclick="emot('sneezing.png');">
+    <img src="emote/spicy.png" height=40px width=40px onclick="emot('spicy.png');">
+    <img src="emote/cold.png" height=40px width=40px onclick="emot('cold.png');">
+    <img src="emote/thinking.png" height=40px width=40px onclick="emot('thinking.png');">
+    <img src="emote/surprised.png" height=40px width=40px onclick="emot('surprised.png');">
+    <img src="emote/unamused.png" height=40px width=40px onclick="emot('unamused.png');">
+    <img src="emote/sleeping.png" height=40px width=40px onclick="emot('sleeping.png');">
+    <img src="emote/sad2.png" height=40px width=40px onclick="emot('sad2.png');">
+    <img src="emote/sad3.png" height=40px width=40px onclick="emot('sad3.png');">
+    <img src="emote/sad4.png" height=40px width=40px onclick="emot('sad4.png');">
+    <img src="emote/sad6.png" height=40px width=40px onclick="emot('sad6.png');">
+    <img src="emote/covermouth.png" height=40px width=40px onclick="emot('covermouth.png');">
+    <img src="emote/dis.png" height=40px width=40px onclick="emot('dis.png');">
+    <img src="emote/disappointed.png" height=40px width=40px onclick="emot('disappointed.png');">
+    <img src="emote/angry.png" height=40px width=40px onclick="emot('angry.png');">
+    <img src="emote/angry2.png" height=40px width=40px onclick="emot('angry2.png');">
+    <img src="emote/angry3.png" height=40px width=40px onclick="emot('angry3.png');">
+    <img src="emote/dizzy1.png" height=40px width=40px onclick="emot('dizzy1.png');">
+    <img src="emote/sick1.png" height=40px width=40px onclick="emot('sick1.png');">
+    <img src="emote/sick2.png" height=40px width=40px onclick="emot('sick2.png');">
+    <img src="emote/sick3.png" height=40px width=40px onclick="emot('sick3.png');">
+    <img src="emote/omg.png" height=40px width=40px onclick="emot('omg.png');">
+    <img src="emote/puke.png" height=40px width=40px onclick="emot('puke.png');">
+    <img src="emote/lol1.png" height=40px width=40px onclick="emot('lol1.png');">
+    <img src="emote/lol2.png" height=40px width=40px onclick="emot('lol2.png');">
+    <img src="emote/nomouth.png" height=40px width=40px onclick="emot('nomouth.png');">
+    <img src="emote/moneyeyes.png" height=40px width=40px onclick="emot('moneyeyes.png');">
+    <img src="emote/rollingeyes.png" height=40px width=40px onclick="emot('rollingeyes.png');">
+    <img src="emote/hungry.png" height=40px width=40px onclick="emot('hungry.png');">
+    <img src="emote/grinmacing.png" height=40px width=40px onclick="emot('grinmacing.png');">
+    <img src="emote/focus.png" height=40px width=40px onclick="emot('focus.png');">
+    <img src="emote/drolling.png" height=40px width=40px onclick="emot('drolling.png');">
+    <img src="emote/flushed.png" height=40px width=40px onclick="emot('flushed.png');">
+    <img src="assets/img/smile.svg" id="logo"style="background-color:white; border-radius:50%; border:white 2px solid;">
+</div>

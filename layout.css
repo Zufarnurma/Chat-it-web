@@ -1,0 +1,1190 @@
+@media screen and (min-width:1080px) {
+    body {
+        margin: 0px;
+        background-color: #F6F7FB;
+    }
+}
+
+body {
+    margin: 0px;
+    background-color: #F6F7FB;
+}
+
+.content .col-sm-4 img {
+    margin-left: 129px;
+    margin-top: 144px;
+}
+
+.content .col-sm-8 .text {
+    margin-top: 160px;
+    margin-left: 144px;
+}
+
+.content .col-sm-6 .input {
+    margin-left: 144px;
+}
+
+.content .col-sm-6 .button {
+    background-color: #0080FF;
+    color: white;
+    width: 400px;
+    height: 40px;
+}
+
+.content .col-sm-6 .h3 {
+    border-left: #c4c4c4;
+    position: relative;
+    color: #BABABA;
+    left: 177px;
+}
+
+.content .col-sm-6 .h3:before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    background-color: #C4C4C4;
+    position: absolute;
+    left: -177px;
+    top: 22px;
+}
+
+.content .col-sm-6 .h3:after {
+    content: "";
+    display: block;
+    width: 185px;
+    height: 2px;
+    background-color: #C4C4C4;
+    position: absolute;
+    left: 35px;
+    top: 22px;
+}
+
+.logo {
+    position: fixed;
+    top: 1%;
+    left: 0.45%;
+    height: 7%;
+    width: 7%;
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        margin-right: 120px;
+    }
+}
+
+
+/*#kotak gunanya buat box login*/
+
+#kotak {
+    background-color: blue;
+    width: 45px;
+    height: 56px;
+}
+
+
+/*#menu adalah tempat menu di chat.php*/
+
+#menu {
+    position: fixed;
+    display: none;
+    top: 3%;
+    width: 70%;
+    border-radius: 18px;
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
+    height: 10%;
+    right: 2%;
+    box-shadow: rgb(170, 170, 170) 0px 4px 3px;
+    padding-bottom: 2%;
+}
+
+#menu img {
+    position: absolute;
+    left: 2%;
+    top: 40%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+/*#tag adalah tempat menunjukan username di chat.php*/
+
+#menu #tag {
+    padding: 0px 12px 0px 12px;
+    background-color: white;
+    position: absolute;
+    align-items: center;
+    overflow: hidden;
+    top: 40%;
+    font-size: 20px;
+    left: 9%;
+}
+
+
+/*#menu a adalah untuk a href di bar menu di chat.php*/
+
+#menu a {
+    top: 30%;
+    position: absolute;
+    right: 5%;
+    border-radius: 2px;
+    border: green solid 1px;
+    background-color: floralwhite;
+    padding: 0px 8px 0px 8px;
+    border-radius: 12px;
+}
+
+
+/*#menu a hove itu untuk effelk kalo a href nya di hover*/
+
+#menu a:hover {
+    border-radius: 12px;
+    border: green solid 1px;
+    background-color: grey;
+}
+
+
+/*class tambD gunanya untuk bar pencarian dialog
+di sebelah tulisan chats di dialog.php*/
+
+.tambD:hover img {
+    display: none;
+}
+
+.tambD {
+    position: fixed;
+    top: 9%;
+    left: 3%;
+    justify-content: right;
+    align-items: flex-start;
+    overflow: hidden;
+    width: 230px;
+    height: 34px;
+    border-radius: 13px;
+    transition: 0.3s;
+    background-color: rgb(201, 201, 201);
+    border: rgb(16, 31, 3) solid 2px;
+}
+
+.tambD:hover {
+    width: 24%;
+    height: 50%;
+    transition: 0.3s;
+    left: 0%;
+}
+
+
+/*#DN adalah id untuk meletakan hasil pencarian nama user apabila 
+ belum memulai dialog dengan user tersebut*/
+
+#DN {
+    background-color: rgb(152, 184, 255);
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+
+/*ini buat pas di hover nya*/
+
+#DN:hover {
+    background-color: rgb(131, 157, 211);
+    border: black 1px solid;
+}
+
+
+/*#DE gunanya untuk hasil pencarian username juga,
+tapi kalo sudah ada dialog dengan user tersebut*/
+
+#DE {
+    text-align: right;
+    background-color: rgb(245, 245, 245);
+    border: rgb(73, 73, 73) solid 1px;
+    padding: 0px 8px 0px 8px;
+    color: rgb(0, 0, 0);
+}
+
+
+/*ini buat pas di hover nya*/
+
+#DE:hover {
+    text-align: right;
+    background-color: rgb(212, 212, 212);
+    border: rgb(255, 255, 255) solid 1px;
+    padding: 0px 8px 0px 8px;
+    transition: 0.2s;
+    color: rgb(0, 0, 0);
+}
+
+
+/*ini buat logo kirim gambar, file, dan audio*/
+
+.tambahfile img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*class tambahfile adalah class untuk mengirim file ke chat
+berisi pengiriman gambar, audio, dan dokumen*/
+
+.tambahfile {
+    display: none;
+    position: fixed;
+    background-color: whitesmoke;
+    left: 35%;
+    bottom: 3%;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: 0.8s;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*ini biar ada efek nya pas logo pengiriman di hover*/
+
+.tambahfile img:hover {
+    box-shadow: inset 2px 1px 9px rgba(63, 63, 63, 0.4);
+}
+
+
+/*ini biar melebar width nya pas tempat ngirim file di hover*/
+
+.tambahfile:hover {
+    height: 121px;
+    transition: 0.2s;
+}
+
+
+/*#dmswitch gunanya untuk posisi dari pengaturan mode malam*/
+
+#DMswitch {
+    position: fixed;
+    top: 0%;
+    left: 5%;
+    border-radius: 6px;
+    background-color: rgb(143, 255, 148);
+}
+
+.tripledot {
+    position: fixed;
+    left: 20%;
+    top: 1%;
+}
+
+#tripledot {
+    position: fixed;
+    top: 8%;
+    left: 20%;
+    background-color: white;
+    width: auto;
+    padding: 2px 0px 2px 0px;
+}
+
+#piltpd {
+    font-size: 20px;
+    height: 23px;
+    background-color: white;
+}
+
+#piltpd:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+
+/*#emotes gunanya untuk meletakan posisi, dan desain tempat memilih emot*/
+
+#emotes {
+    border: rgb(136, 136, 136) solid 1px;
+    border-radius: 20px;
+    position: fixed;
+    left: 30%;
+    bottom: 3%;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    background-color: white;
+    display: none;
+}
+
+#emotes #logo {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    left: 30%;
+    bottom: 3%;
+}
+
+#emotes:hover #logo {
+    display: none;
+    position: relative;
+}
+
+
+/*ini buat pas di hover*/
+
+#emotes:hover {
+    height: 30%;
+    width: 20%;
+    transition: 0.2s;
+    overflow: auto;
+}
+
+
+/*#vimage adalah desain untuk melakukan zoom pada gambar yg dikirim*/
+
+#vimage {
+    position: fixed;
+    top: 0%;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+    filter: blur(20px);
+}
+
+
+/*#liatgambar untuk meletakkan gambarnya saat #vimage aktif*/
+
+#liatgambar {
+    position: fixed;
+    right: 7%;
+    top: 17%;
+    height: 75%;
+    max-width: 75%;
+    overflow: auto;
+}
+
+#liatgambar img {
+    display: block;
+    height: initial;
+    width: initial;
+}
+
+
+/*#kirimaudio gunanya untuk memasukan audio yg dipilih untuk dikirim
+aktif setelah class tambahfile img di click*/
+
+#kirimaudio {
+    position: fixed;
+    bottom: 10%;
+    left: 30%;
+    background-color: rgb(233, 233, 233);
+    transition: 1s;
+}
+
+
+/*#kirimdoc gunanya untuk memasukan dokumen yg dipilih untuk dikirim
+aktif setelah class tambahfile img di click*/
+
+#kirimdoc {
+    position: fixed;
+    bottom: 10%;
+    left: 30%;
+    background-color: rgb(233, 233, 233);
+    transition: 1s;
+}
+
+
+/*#kirimgambar gunanya untuk memasukan gambar yg dipilih untuk dikirim
+aktif setelah class tambahfile img di click*/
+
+#kirimgambar {
+    position: fixed;
+    bottom: 10%;
+    left: 30%;
+    background-color: rgb(233, 233, 233);
+    transition: 1s;
+}
+
+
+/*#ganprofil itu adalah pop up untuk mengisi opsi saat akan mengganti profil*/
+
+#ganprofil img {
+    border-radius: 50%;
+}
+
+#ganprofil {
+    position: fixed;
+    height: 100%;
+    width: 6cm;
+    background-color: rgb(255, 255, 255);
+    top: 0%;
+    left: 0%;
+    overflow: auto;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+#ganprofil input[type="button"] {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 255, 242) 0px 0px 4px;
+    border: rgb(34, 222, 255) 1px solid;
+    border-radius: 8px;
+    width: 70%;
+    font-size: 20px;
+    color: rgb(72, 243, 255);
+}
+
+#ganprofil input {
+    height: 27px;
+}
+
+#ganprofil select {
+    height: 22px;
+}
+
+#ganprofil #cgprofil {
+    background-color: rgb(52, 197, 255);
+    box-shadow: cyan 0px 0px 4px;
+    border: white 1px solid;
+    border-radius: 8px;
+    width: 70%;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*ini untuk tombol x nya*/
+
+#ganprofil img[src="Xbutton.png"] {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border: none;
+    background-color: transparent;
+}
+
+
+/*class gamm gunanya untuk menunjukan profil pengguna di
+ atas kanan yg ukuran nya kecil sebagai view profil sementara*/
+
+.gamm {
+    position: absolute;
+    right: 20%;
+    top: 0%;
+}
+
+
+/*#dit adalah tombol yg berlogo pensil untuk membuka pop up edit profil
+ (#ganprofil)*/
+
+.gamm #dit {
+    border: lightcyan solid 1px;
+    position: absolute;
+    top: 46%;
+}
+
+
+/*ini agar tombolnya terlihat saat pilihan tambah dialog tidak di hover*/
+
+
+/*class tambD input text dipakai untuk desain dari field input 
+username/nomer telpon nya*/
+
+.tambD input[type="text"] {
+    width: 100%;
+    height: 34px;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+}
+
+
+/*ini buat field input text nya pas class tabD di hover*/
+
+.tambD:hover input[type="text"] {
+    width: 100%;
+    transition: 0.5;
+}
+
+
+/*class Plist adalah nama user2 yg melakukan chat dengan user, tapi
+chat nya tidak sedang dibuka*/
+
+.Plist {
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    border: darkslateblue solid 1px;
+    padding: 0px 8px 0px 8px;
+    width: 90%;
+    border-radius: 12px;
+}
+
+
+/*ini buat pas di hover*/
+
+.Plist:hover {
+    text-align: right;
+    background-color: rgb(221, 221, 226);
+    border: darkslateblue solid 1px;
+    padding: 0px 8px 0px 8px;
+    transition: 0.2s;
+    width: 90%;
+    border-radius: 12px;
+}
+
+
+/*class Dlist adalah nama user2 yg melakukan chat dengan user,
+saat chat nya sedang dibuka*/
+
+.Dlist {
+    text-align: right;
+    background-color: rgb(151, 151, 151);
+    border: darkslateblue solid 1px;
+    padding: 0px 8px 0px 8px;
+    width: 90%;
+    border-radius: 12px;
+}
+
+
+/*ini untuk mengatur posisi dari foto profil di dialog.php*/
+
+.Plist img {
+    position: absolute;
+    left: 5%;
+    border-radius: 40px;
+}
+
+
+/*ini juga sama kaya di atas,m tapi buat yg tidak sedang dibuka chatnya*/
+
+.Dlist img {
+    position: absolute;
+    left: 5%;
+    border-radius: 40px;
+}
+
+
+/*#Ckanan adalah tempat untuk meletakan chat yg di kirim user ke user2
+digunakan di ambil chat.php*/
+
+#Ckanan {
+    line-height: 100%;
+    display: block;
+    position: relative;
+    padding: .5em;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin-bottom: 1.5em;
+    clear: both;
+    max-width: 80%;
+    float: right;
+    color: black;
+    margin-left: 10%;
+    background-color: rgb(108, 198, 250);
+    min-width: 10%;
+    font-family: sans-serif;
+}
+
+#Ckanan img[src="assets/icon/icontitik3.svg"] {
+    display: none;
+}
+
+#Ckanan:hover img[src="assets/icon/icontitik3.svg"] {
+    display: block;
+    opacity: 100%;
+    filter: drop-shadow( white 0px 12px 4px);
+}
+
+#Ckanan img[src="assets/icon/check.svg"] {
+    position: absolute;
+    bottom: 0%;
+    right: 1%;
+    margin-right: 0px;
+}
+
+.hider {
+    display: none;
+    font-size: 40px;
+    position: fixed;
+    height: 100%;
+    width: 4%;
+    background-color: grey;
+    border: greenyellow;
+    left: 0%;
+    top: 0%;
+    padding-left: 2%;
+}
+
+
+/*ini untuk konfigurasi kalau user mengirim gambar*/
+
+#Ckanan img {
+    position: absolute;
+    top: 0%;
+    margin-right: 20px;
+    right: 5%;
+    background-color: transparent;
+}
+
+#Ckanan font {
+    position: absolute;
+    bottom: 0%;
+}
+
+
+/*yg ini untu link download media yg dikirim user*/
+
+#Ckanan a {
+    color: rgb(39, 6, 158);
+    text-decoration: none;
+}
+
+
+/*#Ckiri adalah tempat menaruh chat yg dikirim user2 dan
+ digunakan di ambilchat.php*/
+
+#Ckiri {
+    background-color: rgb(230, 230, 230);
+    line-height: 100%;
+    display: block;
+    position: relative;
+    padding: .5em;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin-bottom: 1.5em;
+    clear: both;
+    max-width: 80%;
+    min-width: 10%;
+    float: left;
+    margin-right: 10%;
+    font-family: sans-serif;
+}
+
+
+/*yg ini untu link download media yg dikirim user2*/
+
+#Ckiri a {
+    color: rgb(5, 84, 90);
+    text-decoration: none;
+}
+
+
+/*#daftarada dipakai untuk meletakan list hasil pencarian user 
+di tambah dialog*/
+
+#daftarada {
+    position: absolute;
+    top: 20%;
+    height: 80%;
+    width: 100%;
+    overflow: auto;
+}
+
+
+/*#chatplace gunanya untuk menjadi bar mengetik chat yg ada di bawah,
+isinya ada kirim media, kirim pesan, dan kirim emote*/
+
+#chatplace {
+    display: none;
+    position: fixed;
+    bottom: 0%;
+    left: 28%;
+    background-color: transparent;
+    height: 10%;
+    width: 67%;
+    border-radius: 80px;
+}
+
+
+/*ini untuk konfigurasi input text di #chatplace*/
+
+#chatplace input[type="text"] {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 56.5%;
+    height: 56%;
+    border-radius: 40px;
+}
+
+
+/*ini untuk koonfigurasi tombol kirim*/
+
+#chatplace button {
+    position: absolute;
+    left: 70%;
+    top: 24%;
+    height: 48%;
+    width: 6%;
+    border-radius: 15px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+
+/*#chosechat gunanya adalah untuk menampilkan daftar dialog yg dilakukan user
+ke y=user lain, isinya adalah dialog dan bar menambah chat
+alias(output dari dialog.php)*/
+
+#chosechat {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 24%;
+    background-color: rgb(238, 238, 238);
+    overflow: auto;
+    border-right: black solid 1px;
+    padding-bottom: 2%;
+    padding-left: 1%;
+}
+
+
+/*#isi adalah tempat untuk menampilkan chat yg ada di dialog yg terpilih
+alias(output dari ambilchat.php)*/
+
+#isi {
+    top: 21%;
+    position: absolute;
+    width: 73%;
+    height: 74%;
+    right: 0%;
+    overflow: auto;
+}
+
+#dispw {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    overflow: hiden;
+}
+
+#dispw input {
+    width: 100%;
+}
+
+#dispw img {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+
+#pac {
+    position: fixed;
+    top: 0%;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+    filter: blur(20px);
+    display: none;
+}
+
+#konfirhps input {
+    border: black solid 1px;
+    border-radius: 6px;
+    margin: 2px 2px 2px 2px;
+}
+
+#konfirhps {
+    position: fixed;
+    border-radius: 12px;
+    top: 48%;
+    right: 30%;
+    border: black 1px solid;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 180px;
+}
+
+#konfirhps img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 30px;
+    width: 30px;
+}
+
+
+/*class editR adalah pop up untuk mengedit chat yg dikirim*/
+
+.editR input {
+    border: black solid 1px;
+    border-radius: 8px;
+    margin: 2px 2px 2px 2px;
+}
+
+.editR {
+    border-radius: 12px;
+    position: fixed;
+    height: 20%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    left: 40%;
+    top: 40%;
+    display: block;
+}
+
+
+/*ini adalah konfigurasi tombol X dari pop up edit pesan*/
+
+.editR img {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: transparent;
+    border: none;
+}
+
+
+/*ini untuk mengatur desain tulisan peringatan username/password salah*/
+
+#warn {
+    color: red;
+    font-size: 13px;
+}
+
+
+/*#baru digunakan untuk membuat garis yg membatasi antara pesan yg
+ belum dibaca dan sudah dibaca pada chat, juga pemisah antara pesan
+  yg dikirim di hari yg berbeda (dipakai di ambilchat.php)*/
+
+#baru {
+    height: 30px;
+    line-height: 100%;
+    display: block;
+    position: relative;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin-bottom: 1.5em;
+    clear: both;
+    float: center;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    font-size: 20px;
+}
+
+.kataor {
+    position: relative;
+    left: 60%;
+}
+
+@media screen and (orientation:portrait) {
+    #dispw {
+        display: flex;
+        width: 100%;
+        height: 30px;
+        overflow: hiden;
+    }
+    #dispw input {
+        width: 100%;
+    }
+    #dispw img {
+        position: relative;
+        top: 0%;
+        right: 0%;
+    }
+    .form-group {
+        width: 120%;
+    }
+    .d-print-none-block {
+        width: 60%;
+        position: relative;
+        left: 30%;
+        padding-bottom: 8%;
+        padding-top: 8%;
+    }
+    .content {
+        height: 100%;
+    }
+    .kataor {
+        position: relative;
+        left: 100%;
+    }
+    .input button {
+        width: 10%;
+    }
+    .col-sm-6 h1 {
+        padding-left: 45%;
+        width: 180%;
+    }
+    .button {
+        width: 20%;
+    }
+    #chosechat {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(238, 238, 238);
+        overflow: auto;
+        border-right: black solid 1px;
+        padding-bottom: 2%;
+        padding-left: 1%;
+        font-size: 40px;
+    }
+    #chosechat font {
+        font-size: 20px;
+    }
+    #chosechat img {
+        width: 160px;
+        border-radius: 50%;
+        height: 160px;
+    }
+    .tambD {
+        top: 15%;
+        height: 80px;
+        width: 80%;
+    }
+    .tambD input[type="text"] {
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        top: 0px;
+        left: 0%;
+        font-size: 40px;
+    }
+    .tambD img {
+        height: 70px;
+    }
+    .tambD:hover {
+        width: 90%;
+        height: 50%;
+    }
+    .tripledot {
+        position: fixed;
+        left: 80%;
+        width: 100px;
+        height: 100px;
+    }
+    #tripledot {
+        position: fixed;
+        top: 8%;
+        left: 60%;
+        background-color: white;
+        width: 40%;
+        height: auto;
+        padding: 2px 0px 2px 0px;
+    }
+    #piltpd input {
+        height: 50px;
+        width: 50px;
+    }
+    #piltpd {
+        font-size: 50px;
+        height: auto;
+        background-color: white;
+    }
+    #piltpd:hover {
+        background-color: rgb(184, 184, 184);
+    }
+    .logo {
+        position: fixed;
+        top: 0.45%;
+        left: 2%;
+        height: 14%;
+        width: 14%;
+    }
+    #isi {
+        width: 92%;
+    }
+    #chatplace {
+        left: 0%;
+        background-color: transparent;
+        height: 10%;
+        width: 100%;
+        border-radius: 80px;
+        font-size: 30px;
+    }
+    #chatplace input[type="text"] {
+        font-size: 40px;
+        width: 66%;
+        height: 48%;
+        left: 30%;
+        border-radius: 300px;
+    }
+    #chatplace button {
+        left: 80%;
+        height: 40%;
+        width: 15%;
+        border-radius: 300px;
+    }
+    #emotes {
+        height: 100px;
+        width: 100px;
+        left: 5%;
+    }
+    #emotes img {
+        height: 100px;
+        width: 100px;
+    }
+    #emotes #logo {
+        height: 100px;
+        width: 100px;
+        left: 5%;
+    }
+    #emotes:hover {
+        height: 60%;
+        width: 80%;
+        left: 10%;
+    }
+    .tambahfile {
+        height: 100px;
+        width: 100px;
+        left: 16%;
+    }
+    .tambahfile:hover {
+        height: 300px;
+        width: 100px;
+        left: 16%;
+    }
+    .tambahfile img {
+        height: 100px;
+        width: 100px;
+    }
+    #Ckanan {
+        font-size: 30px;
+    }
+    #Ckiri {
+        font-size: 30px;
+    }
+    #menu {
+        left: 10%;
+        width: 80%;
+    }
+    #menu #tag {
+        left: 10%;
+    }
+    #Ckanan font {
+        font-size: 20px;
+    }
+    #Ckiri font {
+        font-size: 20px;
+    }
+    #Ckanan:hover img[src="assets/icon/icontitik3.svg"] {
+        display: block;
+        opacity: 100%;
+        height: 70px;
+        width: 70px;
+        filter: drop-shadow( white 0px 12px 4px);
+    }
+    #Ckanan audio {
+        width: 300px;
+        height: 40px;
+    }
+    #kirimaudio {
+        width: 14cm;
+        height: 10cm;
+    }
+    #kirimaudio img {
+        height: 3cm;
+        width: 3cm;
+    }
+    #kirimaudio input {
+        height: 3cm;
+        width: 14cm;
+        font-size: 1cm;
+    }
+    #kirimgambar {
+        width: 14cm;
+        height: 10cm;
+    }
+    #kirimgambar img {
+        height: 3cm;
+        width: 3cm;
+    }
+    #kirimgambar input {
+        height: 3cm;
+        width: 14cm;
+        font-size: 1cm;
+    }
+    #kirimdoc {
+        width: 14cm;
+        height: 10cm;
+    }
+    #kirimdoc img {
+        height: 3cm;
+        width: 3cm;
+    }
+    #kirimdoc input {
+        height: 3cm;
+        width: 14cm;
+        font-size: 1cm;
+    }
+    #konfirhps {
+        width: 40%;
+        height: 30%;
+        font-size: 40px;
+    }
+    #konfirhps input {
+        width: 80%;
+        height: 27%;
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 40px;
+        border-radius: 20px;
+        border: black 1px solid;
+    }
+    .editR {
+        font-size: 40px;
+        height: 40%;
+        width: 80%;
+        top: 20%;
+        left: 10%;
+    }
+    .editR input {
+        font-size: 30px;
+        height: 2cm;
+        width: 90%;
+        border: black solid 1px;
+        border-radius: 12px;
+        margin: 20px 20px 20px 20px;
+    }
+    .editR input[type="button"] {
+        width: 8cm;
+    }
+    #ganprofil {
+        width: 80%;
+        font-size: 40px;
+    }
+    #ganprofil input {
+        width: 90%;
+        height: 5%;
+        font-size: 40px;
+    }
+    #ganprofil input[type='checkBox'] {
+        height: 0.8cm;
+        width: 0.8cm;
+    }
+    #ganprofil select {
+        height: 4%;
+        font-size: 40px;
+        width: 50%;
+    }
+    #ganprofil input[type="button"] {
+        font-size: 50px;
+        width: 90%;
+    }
+    #ganprofil #cgprofil {
+        font-size: 50px;
+        width: 90%;
+    }
+    #ganprofil img {
+        height: 6cm;
+        width: 6cm;
+    }
+    #ganprofil img[src="Xbutton.png"] {
+        width: 2cm;
+        height: 2cm;
+    }
+}
